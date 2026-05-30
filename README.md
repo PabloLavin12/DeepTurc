@@ -20,28 +20,25 @@ Designed with open science and reproducibility in mind, this repository is organ
 * **`Figures/`**: High resolution charts, spatial maps, and visual intercomparisons presented in the final manuscript.
 * **`main.ipynb`**: Interactive Jupyter Notebook detailing the methodology for reproducibility.
 
-## Environment Installation
+## Environment Installation & Reproducibility
+
+To run the scripts and notebooks locally, you will need a Conda distribution. We highly recommend installing **[Miniforge](https://github.com/conda-forge/miniforge)**, which is lightweight, pre-configured for the `conda-forge` channel, and includes the ultra-fast `mamba` package manager out of the box.
 
 The required packages and dependencies to run the experiments are listed in `environment.yaml`. To set up the environment, please follow these steps:
 
-1.  **Create the environment** (We recommend using Mamba for faster dependency resolution):
-    ```bash
-    conda create -n turc-downscaling -c conda-forge mamba
-    ```
-
-2.  **Activate the base environment:**
-    ```bash
-    conda activate turc-downscaling
-    ```
-
-3.  **Install the required packages using Mamba:**
+1.  **Install the required packages using Mamba:**
     ```bash
     mamba env create -f environment.yaml
     ```
 
-4.  **Activate the final environment:**
+2.  **Activate the environment:**
     ```bash
     conda activate turc-downscaling 
+    ```
+    
+3.  **Launch Jupyter:**
+    ```bash
+    jupyter notebook 
     ```
 
 Once the environment is installed and activated, you will be able to open the Jupyter notebook to explore the emulation & downscaling process and climate change projections!
