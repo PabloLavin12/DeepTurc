@@ -18,7 +18,7 @@ Designed with open science and reproducibility in mind, this repository is organ
 
 * **`Scripts/`**: Source code for data processing, model training (KNN & DeepESD), and evaluation metrics.
 * **`Figures/`**: High resolution charts, spatial maps, and visual intercomparisons presented in the final manuscript.
-* **`main.ipynb`**: Interactive Jupyter Notebook detailing the methodology for reproducibility.
+* **`main.ipynb`**: Interactive Jupyter Notebook detailing the methodology for reproducibility. If you have problems to see the notebook, try this **[link](https://nbviewer.org/github/PabloLavin12/DeepTurc/blob/main/main.ipynb)**.
 
 ## Environment Installation & Reproducibility
 
