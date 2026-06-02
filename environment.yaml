@@ -16,7 +16,6 @@ dependencies:
   - r-gridextra
   - r-rcolorbrewer
   - r-dplyr
-  - m2w64-toolchain
   - pip:
     - numpy==1.23.5
     - protobuf==3.20.3
